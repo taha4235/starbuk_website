@@ -1,0 +1,492 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+.menu_links{
+    position: relative;
+    top: 16px;
+    left: 30px;
+}
+.menu_links ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu_links ul li a{
+    text-decoration: none;
+    font-weight:bolder;
+    line-height: 20px;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.info{
+    position: relative;
+    left: 70px;
+}
+.menu_links ul li a:hover{
+    color: #006241;
+}
+.info_2{
+    display: flex;
+    position: relative;
+    left: -100px;
+    top:17px;
+}
+.buttons a{
+    padding: 10px;
+    text-decoration: none;
+    color: #222;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.buttons .login{
+    border: 2px solid #222;
+    border-radius: 33px;
+}
+.location{
+    margin-right: 30px;
+}
+.buttons a:not(.login){
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border-radius: 33px;
+}
+.location a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location a span{
+    margin-left: 10px;
+}
+.buttons  .login:hover{
+    color: white;
+    transition: background 1s;
+    background-color: #222;
+}
+.buttons a:not(.login):hover{
+    background-color: transparent;
+    color: #222;
+    border: 2px solid #222;
+}
+.containers{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 280px);
+    position: relative;
+    top: 10px;
+}
+.container-1,.container-2{
+    width: 50%;
+    height: 100%;
+}
+.container-1{
+background-color: #006241;
+}
+.container-2{
+    background-color: #dcdcdc;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84026.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.informations{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 40px;
+}
+.informations h3{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.informations h4{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+}
+.informations button{
+    position: relative;
+    top: 80px;
+    padding: 1em 2em;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.offer_container{
+    width: 100%;
+    height: 80vh;
+    
+    position: relative;
+    top: -140px;
+}
+.macamia_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(218, 218, 32, 0.911);
+    display: flex;
+}
+.containers_1,.containers_2{
+    width: 50%;
+    height: 100%;
+}
+.containers_1{
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-83790.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.inforse{
+    position:relative;
+    top: 90px;
+}
+.inforse h3{
+    font-size: 50px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.inforse h4{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333;
+}
+.inforse button{
+    position: relative;
+    top: 40px;
+    padding: 1em 2em;
+    background-color: transparent;
+    color: #333;
+    border-radius: 33px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 2px solid #333;
+}
+.active2{
+    margin-top: 60px;
+}
+.offers_container{
+    width: 100%;
+    height: 50vh;
+    background-color: whtiesmoke;
+    position: relative;
+    top: -70px;
+}
+.all_container{
+    width: 100%;
+    background-color: rgba(0,0,0,0.24);
+    height: 100%;
+    display: flex;
+}
+.last{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-83789.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first{
+    width: 50%;
+    height: 100%;
+}
+.info_taha{
+    position:relative;
+    top: 30px;
+}
+.info_taha h3{
+    font-size: 40px;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.info_taha h4{
+    color: #222;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.info_taha button{
+    padding: 1em 2em;
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+    outline: 0;
+    border-radius: 33px;
+    text-transform: capitalize;
+    font-weight: 300;
+    cursor: pointer;
+}
+.food{
+    width: 100%;
+    height: 76vh;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: rgba(242, 225, 99, 0.646);
+}
+.firsto{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84237.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lasto{
+    width: 50%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lasto h3{
+    font-size: 40px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.infoses{
+    position: relative;
+    top: 70px;
+}
+.infoses h4{
+    color: #333;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.infoses button{
+    position: relative;
+    top: 30px;
+    padding: 1.1em 2em;
+    background-color: transparent;
+    border: 2px solid #333;
+    outline: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 33px;
+}
+.starbuks_app{
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.24);
+}
+.starbuks_app .star_2{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84100.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.star_1{
+    width:50%;height: 100%;
+}
+.star_information{
+    position: relative;
+    top: 70px;
+}
+.star_information h3{
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #222;
+    margin-top: 20px;
+}
+.star_information h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.star_information button{
+    padding: 1em 3em;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #222;
+    text-transform:uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    border: 2px solid #333;
+    border-radius: 33px;
+}
+.delivery_container{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 30px;
+    display: flex;
+    background-color: #006241;
+}
+.delivery_1{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84183.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+.delivery_information{
+    position: relative;
+    font-weight: 300;
+    top: 90px;
+    left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.delivery_information h3{
+    font-size: 25px;
+    color: white;
+text-transform: capitalize;
+font-weight: 300;
+}
+.delivery_information h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    top: 30px;
+}
+.delivery_information a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+    padding: 1em 1.4em;
+    border: 2px solid white;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.company_policy{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+    height: 30vh;
+}
+.company_policy p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.company_policy p a{
+    text-decoration: none;
+    color: #333;
+
+}
+.a{
+    position: relative;
+    top: 70px;
+}
+footer{
+    width: 100%;
+    height: 90vh;
+    padding: 2em;
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.columns h3{
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.footer_links{
+    position: relative;
+    top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer_links ul li{
+    list-style: none;
+    display: block;
+    margin-bottom: 40px;
+}
+.footer_links ul li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.footer_links ul li a:hover{
+    color: #333;
+    transition: color 1s;
+}
+.icons_container ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.icons_container ul li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons_container ul li a:hover{
+    background-color: #dcdcdc;
+    transition: background 1s;
+}
+.copyright_container ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 30px;
+    color: #333;
+}
+.copyright_container ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.copyright_container span{
+    position: relative;
+    left: 20px;
+}
+.copyright_container ul li a:hover{
+    text-decoration: underline;
+    transition: 1s;
+}
+.footings{
+    position: relative;
+    top: 30px;
+    color: gray;
+}
+.footings i{
+    margin-right: 4px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a starbuks Account:Starbuks coffe company</title>
+    <link rel="stylesheet" href="join.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+<div class="container">
+    <nav>
+        <img src="logo.jpg" alt="" class="logo">
+    </nav>
+    <div class="description_company_container">
+        <div class="information">
+            <h3 class="title">create an account</h3>
+            <div class="links_information">
+                <a href="">STARBUCKS® REWARDS</a><br><br>
+                <a href="" class="ta">Join Starbucks Rewards to earn Stars for free food and drinks, any way <br> you pay. Get access to mobile ordering, a birthday Reward, and moremore.</a>
+            </div>
+            <div class="create_container">
+                <div class="forms">
+                    <h4><sup>*</sup>indicates reqiured filed</h4>
+                    <h3 class="personal_title">
+                    personal information
+                    </h3><br>
+                    <div class="input_box">
+                        <label for="username" id="users"><sup>*</sup>first name</label>
+                        <br>
+                        <input type="text" name="" id="username">
+                    </div>
+                    <div class="input_box">
+                        <label for="lastname" id="last"><sup>*</sup>last name</label>
+                        <br>
+                        <input type="text" name="" id="lastname">
+                    </div>
+                    <div class="container_2">
+                    <h3 class="personal_title">
+                        account security
+                        </h3><br>
+                        <div class="input_box">
+                            <label for="email" id="mail"><sup>*</sup>email address</label>
+                            <br>
+                            <input type="email" name="" id="email">
+                        </div>
+                        <div class="input_box">
+                            <label for="password" id="passwords"><sup>*</sup>password</label>
+                            <br>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="strength_password_description">
+                            <p>Create a password 8 to 25 characters long that includes <br> at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like  an exclamation point or asterisk.</p>
+                            <br>
+                            <a class="star_links" href="">already have a starbuks gift card!</a>
+                            <br>
+                            <span>collect more than stars & earn rewards</span>
+                            <br> 
+                            <span class="description">Email is a great way to know about offers and <br> what’s new from Starbucks.</span>
+                        <div class="check_boxes">
+                            <input type="checkbox" name="" id="">
+                            <a href="">yes, i'd like email from starbuks</a>
+                        </div>
+                        <div class="namo">
+                            Know about initiatives, announcements and <br> product offers.
+                        </div>
+                        <div class="term_of_use">
+                            <p class="term">term of use</p>
+                            <div class="boxes">
+                                <input type="checkbox" name="" id="">
+                                <a href="">I agree to the 
+                                    Starbucks® Rewards Terms
+                                    opens in new window and the 
+                                    Starbucks Card Terms
+                                    opens in new window and have read the 
+                                    Starbucks Privacy Statement
+                                    opens in new window.
+                                    Create account</a>
+                            </div>
+                            <button class="create_account_button">create account</button>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- javascript code -->
+<script>
+var mail = document.getElementById("mail");
+var email = document.getElementById("email");
+var passwords = document.getElementById("passwords");
+var password = document.getElementById("password");
+var users = document.getElementById("users");
+var last = document.getElementById("last");
+var username = document.getElementById("username");
+var lastname= document.getElementById("lastname");
+username.addEventListener("keyup",()=>{
+    users.style.top="-1px";
+    users.style.transition="1s";
+    users.style.color="#006241";
+    users.style.padding="0.3em";
+})
+lastname.addEventListener("keyup",()=>{
+    last.style.top="-1px";
+    last.style.transition="1s";
+    last.style.color="#006241";
+    last.style.padding="0.3em";
+})
+email.addEventListener("keyup",()=>{
+    mail.style.top="-1px";
+    mail.style.transition="1s";
+    mail.style.color="#006241";
+    mail.style.padding="0.3em";
+})
+password.addEventListener("keyup",()=>{
+    passwords.style.transition="1s";
+    passwords.style.top="-1px";
+    passwords.style.color="#006241";
+    passwords.style.padding="0.3em";
+})
+</script>
+</body>
+</html>

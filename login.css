@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+}
+nav{
+    padding: 2em;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+nav .logo img{
+    width: 50px;
+    height: 50px;
+}
+.login_container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.login_container h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #222;
+    text-transform: capitalize;
+    position: relative;
+    top: 30px;
+}
+.logs_container{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 65%;
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 2em;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3);
+}
+.title_name{
+    color: #333;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.title_name sup{
+    color: lime;
+}
+.input_box{
+    position: relative;
+    top: 30px;
+}
+.input_box input{
+    width: 90%;
+    height: 40px;
+    outline: 0;
+    border: 1px solid #333;
+    border-radius: 0.3em;
+    padding: 0.6em;
+}
+.input_box label{
+    position: relative;
+    top: 30px;
+    color: #333;
+    padding: 0.4em;
+    background-color: white;
+    left: 7px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.input_box label sup{
+    color: lime;
+}
+.inputs_checks{
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.inputs_checks input{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10%;
+   
+}
+
+.inputs_checks a{
+    position: relative;
+    left: 20px;
+    top: 1px;
+    text-decoration: none;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.inputs_checks a span{
+    color: #006241;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.forgotten_links{
+    position: relative;
+    top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.forgotten_links a{
+    text-decoration: none;
+    color: #006241;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.buttons button{
+    position: absolute;
+    right: 20px;
+  margin-top:10px;
+  padding: 1em 1.4em;
+  background-color: #006241;
+  border-radius: 33px;
+  cursor: pointer;
+  color: white;
+  text-transform: capitalize;
+  outline: 0;
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  font-size: 17px;
+}
+.buttons button:focus{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
+
+}
+.description{
+    position: relative;
+    top: 560px;
+    padding: 4em;
+}
+.description p{
+    color: #006241;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.description a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    position: relative;
+    top: 10px;
+}
+.description button{
+    position: relative;
+    top: 20px;
+    padding: 0.4em 2em;
+    color: #006241;
+    text-transform: uppercase;
+    border: 1px solid #006241;
+    border-radius: 33px;
+    cursor: pointer;
+    background-color: white;
+}
+.description button:hover{
+    background-color: whitesmoke;
+}
+@media(max-width:700px){
+    .logs_container{
+        max-width: 80%;
+    }
+    .buttons button{
+        padding: 1em 1em;
+    }
+    .input_box label{
+        font-size: 12px;
+        background-color: white;
+        padding: 0.4em 0.7em;
+        color: #006241;
+        position: relative;
+        left:-10px;
+    }
+    .description a{
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    label{
+        font-size: 12px;
+    }
+    .description a{
+        font-size: 11px;
+    }
+    .inputs_checks a{
+        font-size: 13px;
+        position: relative;
+        top: 4px;
+    }
+    .description{
+        position: relative;
+        margin-top: -40px;
+    }
+    .input_box label{
+        font-size: 12px;
+    }
+}

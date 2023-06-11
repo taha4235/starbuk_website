@@ -1,0 +1,232 @@
+*{
+ margin:0;
+ padding: 0;
+ font-family: sans-serif;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: fit-content;
+}
+body{
+    background: white;
+}
+nav{
+   background-color: white; width: 100%;
+    height: 70px;
+    box-shadow: 3px 2px 2px 2px rgba(0,0,0,0.2);
+padding: 3em;
+}
+nav .logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+}
+.description_company_container{
+    padding: 2em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 21px;
+    color: #333;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.links_information{
+    position: relative;
+    top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links_information a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.create_container{
+    width: 500px;
+    height: 900px;
+    padding: 2.6em;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.7em;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.create_container h4{
+    color: #333;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.create_container h4 sup{
+    color: lime;
+}
+.personal_title{
+    position: relative;
+    top: 30px;
+    font-weight: 300;
+    color: #333;
+    text-transform: capitalize;
+}
+.input_box{
+    position: relative;
+    top: 20px;
+}
+.input_box input{
+    width: 80%;
+    height: 40px;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+}
+.input_box label{
+    padding: 0.5em;
+    background-color: white;
+    text-transform: capitalize;
+    color: #333;
+    word-spacing: 2px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+.input_box label sup{
+    color: lime;
+    position: relative;
+    left: -2px;
+}
+.container_2{
+    position: relative;
+    top: 10px;
+}
+.strength_password_description{
+    position: relative;
+    top: 40px;
+}
+.strength_password_description p{
+    color: #222;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.star_links{
+    color:  #006241;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.strength_password_description span:not(.description){
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    line-height: 30px;
+}
+.description{
+    position: relative;
+    top: 40px;
+    color: #111;
+    font-weight: 300;
+}
+.check_boxes{
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.check_boxes input{
+    width: 25px;
+    height: 25px;
+  border-radius: 50%;
+  border: 2px solid #006241;
+    outline: 0;
+}
+.check_boxes a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 24px;
+    text-transform: capitalize;
+    position: relative;
+    left: 20px;
+}
+.namo{
+    position: relative;
+    top: 70px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.term_of_use{
+    position: relative;
+    top: 100px;
+}
+.term_of_use .term{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+.boxes{
+    display: flex;
+}
+.boxes a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxes input{
+    width: 22px;
+    height: 22px;
+}
+.create_account_button{
+    position: absolute;
+    right: 10px;
+    background-color: #006241;
+    outline: 0;
+    border: 0;
+    border-radius: 33px;
+    cursor: pointer;
+    color: white;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding: 1em 2em;
+}
+.create_account_button:focus{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+@media(max-width:700px){
+    .create_container{
+        max-width: 90%;
+    }
+    .links_information .ta{
+        font-size: 10px;
+    }
+    .strength_password_description p{
+        font-size: 10px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .check_boxes a{
+        font-size: 12px;
+        position: relative;
+        left: 3px;
+    }
+    .boxes{
+        display: none;
+    }
+}

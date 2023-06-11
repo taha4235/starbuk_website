@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account sign in starbuks coffee</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+            </div>
+        </nav>
+        <div class="login_container">
+            <h4 class="name">sign in or create an account</h4>
+            <div class="logs_container">
+                <h3 class="title_name"><sup>*</sup>indicate reqiured filled </h3>
+                <div class="input_box">
+                    <label for="email" id="mails"> <sup>*</sup> username or email address</label><br>
+                    <input type="text" name="username" required id="email" >
+                </div><br>
+                <div class="input_box">
+                    <label for="password" id="paso"> <sup>*</sup> password</label><br>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="inputs_checks">
+                    <input type="checkbox" name="" id="">
+                    <a href="">keep me signed id <span>details</span></a>
+                </div>
+                <div class="forgotten_links">
+                    <a href="">forgot your username?</a><br><br>
+                    <a href="">forgot your password!</a>
+                    <div class="buttons">
+                        <button>
+                            sign in
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div class="description">
+                <p>
+                    JOIN STARBUCKS® REWARDS
+                </p>
+                <a href="">
+                    Join Starbucks® Rewards to earn free food <br> and drinks, get free refills, pay and order with <br> your phone, and more.
+                </a><br>
+                <button>join now</button>
+            </div>
+        </center>
+    </div>
+    <!-- javascript code -->
+    <script>
+    var mails = document.getElementById("mails");
+    var email = document.getElementById("email");
+    var paso = document.getElementById("paso");
+    var password = document.getElementById("password");
+    email.addEventListener("input",()=>{
+        mails.style.top="-0.5px";
+        mails.style.fontSize="16px";
+        mails.style.color="#006241";
+        mails.style.transition="1s";
+        email.style.borderColor="#006241";
+    })
+    password.addEventListener("input",()=>{
+        paso.style.top="-0.5px";
+        paso.style.fontSize="16px";
+        paso.style.color="#006241";
+        paso.style.transition="1s";
+        password.style.borderColor="#006241";
+    })
+    </script>
+</body>
+
+</html>
